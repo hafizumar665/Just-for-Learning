@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- these two links take frome get.bootstrap.com -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- this link take from chatgpt -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Shopping Store</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-info p-2 shadow-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand"><i class="fa fa-globe text-dark fa-2x"></i>
+                    <span class="text-dark fs-2">L</span>
+                    <span class="text-success fs-2">O</span>
+                    <span class="text-secondary fs-2">G</span>
+                    <span class="text-danger fs-2">O</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#logo"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="logo">
+                    <ul class="navbar-nav ms-auto">
+                        <li nav-item>
+                            <a href="#" class="nav-link"><i class="fa fa-home"></i> Home</a>
+                        </li>
+                        <li nav-item>
+                            <a href="#" class="nav-link"><i class="fa fa-user"></i> About us</a>
+                        </li>
+                        <li nav-item>
+                            <a href="#" class="nav-link"><i class="fa fa-list"></i> Products</a>
+                        </li>
+                        <li nav-item>
+                            <a href="#" class="nav-link"><i class="fa fa-handshake-o"></i> Contact us</a>
+                        </li>
+                        <li nav-item>
+                            <a href="#" class="btn btn-md btn-outline-danger mt-2 position-relative"><i
+                                    class="fa fa-shopping-cart "></i>Cart<span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
+                                    3
+                                    <span class="visually-hidden">items in cart</span>
+                                </span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="bg-info border border-1  mt2 p-5">
+        <h2><i class="fa fa-smile-o"></i> Welcome to the Shopping Hub</h2>
+        <p>your one-stop destination for quality, variety, and unbeatable prices. Whether you're looking for the latest
+            fashion trends, electronics, home essentials, beauty products, or daily groceries, we’ve got everything
+            under one roof. Our mission is to provide a seamless shopping experience with trusted brands, fast delivery,
+            and top-notch customer service. Discover exclusive deals, new arrivals, and exciting offers tailored just
+            for you. At Shopping Hub, convenience meets satisfaction. Shop with confidence, enjoy secure payments, and
+            let us bring the best right to your doorstep. Thank you for choosing Shopping Hub — where shopping feels
+            effortless!</p>
+            <div class="input-group" style="max-width: 400px;">
+                <input type="text" class="form-control" placeholder="Search Here What You Want">
+                <button class="btn btn-outline-danger" type="button">
+                    <i class="fa fa-search"></i> Search
+                </button>
+            </div>
+    </div>
+    <section>
+        <div class="p-5">
+            <h2><i class="fa fa-star"></i> Our Products</h2>
+            <hr />
+            <div class="row mt-2">
+                <!-- product 1 -->
+                <div class="col-lg-3">
+                    <div class="card shadwo-lg hover-shadow">
+                        <img src="bg1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <label><b>Product 1</b></label>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <label class="mt-2"><i class="fa fa-money"></i> $100</label>
+                            <button class="btn btn-danger float-end"><i class="fa fa-shopping-cart"></i>Add to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- product 2 -->
+                <div class="col-lg-3">
+                    <div class="card shadwo-lg hover-shadow">
+                        <img src="bg1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <label><b>Product 2</b></label>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <label class="mt-2"><i class="fa fa-money"></i> $100</label>
+                            <button class="btn btn-danger float-end"><i class="fa fa-shopping-cart"></i>Add to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- product 3 -->
+                <div class="col-lg-3">
+                    <div class="card shadwo-lg hover-shadow">
+                        <img src="bg1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <label><b>Product 3</b></label>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <label class="mt-2"><i class="fa fa-money"></i> $100</label>
+                            <button class="btn btn-danger float-end"><i class="fa fa-shopping-cart"></i>Add to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- product 4 -->
+                <div class="col-lg-3">
+                    <div class="card shadwo-lg hover-shadow">
+                        <img src="bg1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <label><b>Product 4</b></label>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <label class="mt-2"><i class="fa fa-money"></i> $100</label>
+                            <button class="btn btn-danger float-end"><i class="fa fa-shopping-cart"></i>Add to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
