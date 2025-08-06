@@ -1,0 +1,91 @@
+<section>
+  <div class="p-5">
+    <h2><i class="fa fa-star"></i> Our Products</h2>
+    <hr />
+
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row mt-2">
+            <!-- Product 1 -->
+            <div class="col-lg-3">
+              <div class="card shadow-lg hover-shadow">
+                <img src="bg1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <label><b>Product 1</b></label>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer">
+                  <label class="mt-2"><i class="fa fa-money"></i> $100</label>
+                  <button class="btn btn-danger float-end"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-lg-3">
+              <div class="card shadow-lg hover-shadow">
+                <img src="bg1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <label><b>Product 2</b></label>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer">
+                  <label class="mt-2"><i class="fa fa-money"></i> $100</label>
+                  <button class="btn btn-danger float-end"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-lg-3">
+              <div class="card shadow-lg hover-shadow">
+                <img src="bg1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <label><b>Product 3</b></label>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer">
+                  <label class="mt-2"><i class="fa fa-money"></i> $100</label>
+                  <button class="btn btn-danger float-end"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                </div>
+              </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-lg-3">
+              <div class="card shadow-lg hover-shadow">
+                <img src="bg1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <label><b>Product 4</b></label>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card-footer">
+                  <label class="mt-2"><i class="fa fa-money"></i> $100</label>
+                  <button class="btn btn-danger float-end"><i class="fa fa-shopping-cart"></i> Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 (optional if you have more products) -->
+        <!--
+        <div class="carousel-item">
+          <div class="row mt-2">
+            Add Product 5 to 8 here...
+          </div>
+        </div>
+        -->
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
